@@ -1,0 +1,119 @@
+body{
+	background-color: rgba(0,0,0,0.2);
+	color: #whitesmoke; 
+    font-family: "Lora";
+	font-size: 18px;
+}
+
+h1, h2, h3{ 
+	font-family: Calibri, sans-serif;
+ }
+
+h1{
+	font-size: 32px;
+	color: #4A2545;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: bolder;
+	color: #824C71;
+	letter-spacing: 5px;
+}
+
+/*links*/
+a{
+	font-family: Calibri, sans-serif;
+	text-decoration: none;
+	font-weight: normal;
+	padding: 8px 10px;
+	letter-spacing: 2px;
+	color: white;
+}
+
+a:hover{
+	color:black;
+	font-weight: bold;
+}
+
+#link-purple{
+	background-color:#824C71 ;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+
+#link-purple:hover{
+	background-color:#F3752B ;
+}
+
+/*images*/
+img{
+	width: 300px;
+}
+
+.photo-round{
+	width: 200px;
+	border-radius: 10px;
+	margin : 0 auto
+} 
+
+#MusicFestival{
+	width: 300px;
+}
+
+#MusicFestival:hover{
+	width: 350px;
+}
+
+/*containers and card-white*/
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+	/*responsive website*/
+	@media (max-width: 760px){
+		.container {
+			width: 600px
+		}
+	}
+
+	@media (max-width: 500px){
+		.container {
+			width: 400px
+		}
+	}
+
+.card-white{    
+	background: rgb(250,250,250);
+    margin: 30px auto;
+    padding: 45px;
+    box-shadow: 0px 10px 30px rgb(0,0,0,0.3);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#introduction p{
+	margin-bottom: 50px;
+}
+
+/*list-inline*/
+.list-inline{
+	list-style:none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{ 
+	font-size: 60px;
+	color: rgba(0,0,0,0.3);
+ }
+
+.list-inline i:hover{ 
+	color: blue; 
+ }
